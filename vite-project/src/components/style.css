@@ -1,0 +1,78 @@
+
+.appContainer{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.Header{
+    background-color: #282c34;
+    color: white;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 20px;
+}
+
+.todolist{
+    margin-top: 20px;
+}
+input{
+    margin: 5px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 250px;
+}
+.button1{
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 60px;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #282c34;
+    color: white;
+    transition: transform 0.2s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+.todoitem{
+
+    list-style: none;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    border-radius: 5px;
+}
+
+.button2{
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px;
+    transition: transform 0.2s;
+}
+.checkIcon{
+    margin-left: 20px;
+}
+
+.taskName{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #282c34;
+    color: white;
+}
