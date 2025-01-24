@@ -23,9 +23,15 @@ function App(){
     }
 
     return(
-        <div className="appContainer">
-            <Header />
-            <ToDoList tasks={tasks} addTask={addTask} completedTask={completedTask} deleteTask={deleteTask} editTask={editTask}/>
+        <div className="app">
+            <div className="appContainer">
+                <Header />
+                <ToDoList tasks={tasks} addTask={addTask} completedTask={completedTask} deleteTask={deleteTask} editTask={editTask}/>
+            </div>
+            <div className="aLink">
+                <a href="https://github.com/pranayAkarapu/To-Do-List-Project.git" target="_blank" >GitHub Repository Link</a>
+            </div>
+            
         </div>
     )
 }
